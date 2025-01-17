@@ -1,6 +1,6 @@
 # Cities in the World Website 🌎
 
-Una página web que muestra las ciudades más populares de Colombia en un diseño moderno y atractivo. El sitio presenta una colección de tarjetas informativas sobre diferentes ciudades, un ranking de las más visitadas y elementos visuales que destacan la cultura colombiana.
+Una página web que muestra las ciudades más populares del mundo, inicialmente muestra las de Colombia en un diseño moderno y atractivo. El sitio presenta una colección de tarjetas informativas sobre diferentes ciudades, un ranking de las más visitadas y elementos visuales que destacan la cultura colombiana.
 
 ## 🌟 Características
 
