@@ -19,18 +19,31 @@
   </header>
 
   <main class="container mx-auto p-4">
-    <h1 class="text-4xl font-bold text-center mb-8 text-red-600">The most Popular City</h1>
-    <div class="flex space-x-4">
+
+    <div class="flex items-center justify-center space-x-4 mb-8">
+      <h1 class="text-4xl font-bold text-red-600">The most Popular City in Colombia</h1>
+      <img src="./assets/images/colombia2.svg" alt="Colombia" class="w-16 h-16 rounded">
+    </div>
       
+    <div class="flex space-x-4">
       <aside class="w-1/4 p-4 bg-yellow-200 rounded-lg shadow-sm">
         <h2 class="text-2xl font-semibold mb-4 text-red-600">Ranking - Most Visited</h2>
-        <ul class="space-y-2">
+        <ul class="space-y-2 mb-12">
           <li class="bg-white p-2 rounded shadow">Bogotá</li>
           <li class="bg-white p-2 rounded shadow">Medellín</li>
           <li class="bg-white p-2 rounded shadow">Cali</li>
           <li class="bg-white p-2 rounded shadow">Cartagena</li>
           <li class="bg-white p-2 rounded shadow">Barranquilla</li>
         </ul>
+
+        <div class="group relative overflow-hidden rounded-lg shadow-lg transform transition-all duration-500 hover:scale-105">
+          <img src="./assets/images/colombia1.png" alt="Colombia landscape"  class="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-110">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            <p class="absolute bottom-4 left-4 text-white font-semibold text-lg transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+              ¡Descubre Colombia!
+            </p>
+          </div>
+        </div>
       </aside>
       
       
@@ -73,14 +86,15 @@
         <section class="mt-8">
           <h2 class="text-2xl font-semibold text-center mb-4 text-red-600">Most Popular Restaurant</h2>
           <div class="flex justify-around space-x-4">
-            <img src="/assets/images/icon1.jfif" alt="Icon 1" class="w-16 h-16 rounded-full shadow-md">
-            <img src="/assets/images/icon2.jfif" alt="Icon 2" class="w-16 h-16 rounded-full shadow-md">
-            <img src="/assets/images/icon3.jfif" alt="Icon 3" class="w-16 h-16 rounded-full shadow-md">
-            <img src="/assets/images/icon4.jfif" alt="Icon 4" class="w-16 h-16 rounded-full shadow-md">
+            <img src="./assets/images/icon1.jfif" alt="Icon 1" class="w-16 h-16 rounded-full shadow-md">
+            <img src="./assets/images/icon2.jfif" alt="Icon 2" class="w-16 h-16 rounded-full shadow-md">
+            <img src="./assets/images/icon3.jfif" alt="Icon 3" class="w-16 h-16 rounded-full shadow-md">
+            <img src="./assets/images/icon4.jfif" alt="Icon 4" class="w-16 h-16 rounded-full shadow-md">
           </div>
           <p class="text-center mt-6">Diversidad de gastronomía desde Colombia a todo el mundo</p>
         </section>
       </section>
+    </div>
     </div>
   </main>
 
